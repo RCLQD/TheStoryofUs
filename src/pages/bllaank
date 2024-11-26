@@ -169,8 +169,7 @@ const MouseImageTrail = ({
           >
             <img
               className="h-24 w-full rounded-md object-cover"
-              srcSet={`${img}?w=400&h=400 400w, ${img}?w=800&h=800 800w`}
-              sizes="(max-width: 600px) 400px, 800px"
+              srcSet={img}
               alt={`Mouse move image ${index}`}
             />
             <div className="w-full flex gap-x-2 pt-2">
